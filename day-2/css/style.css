@@ -150,6 +150,8 @@ width: 25px;
     border-bottom: solid 3px #b9ed64;
 }
 
+
+
 /* FOOTER */
 
 footer{
@@ -159,14 +161,6 @@ footer{
 
 /* MEDIA */
 @media (min-width: 576px){
-    
-}
-@media (min-width: 768px){
-    
-}
-
-
-@media (min-width: 992px) {
     .container .container-small{
         width: 230px;
     }
@@ -190,13 +184,15 @@ footer{
     .container .container-small #playlist{
         display: inline;
     }
+    
+}
+@media (min-width: 768px){
+    
+}
 
 
-    .container .container-big .sopra{
-        height: 90px;
-    }
+@media (min-width: 992px) {
+    
 
-    .container .container-big .centre{
-        height: calc(100% - 90px);
-    }
+    
 }
