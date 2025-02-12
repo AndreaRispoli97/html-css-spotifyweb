@@ -94,6 +94,15 @@ body {
 
 }
 
+.container .container-small #profile .profilo{
+    border-radius: 60%;
+    background-color: #808080;
+}
+
+.container .container-small #profile a {
+    padding-top: 10px;
+}
+
 .quadrato {
     background-color: #ffffff;
     color: black;
