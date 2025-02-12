@@ -180,6 +180,10 @@ body {
     width: 100%;
 }
 
+.container .container-big .centre .musica .album .rotondo{
+    border-radius: 50%;
+}
+
 .container .container-big .centre .musica .album .pad10{
     padding: 5px;
 }
