@@ -193,6 +193,10 @@ body {
     position: relative;
 }
 
+.container .container-big .centre .musica .album .collect{
+    position: relative;
+}
+
 .container .container-big .centre .musica .album .collect .play{
     position: absolute;
     top: 0;
