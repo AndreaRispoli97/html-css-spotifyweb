@@ -235,7 +235,34 @@ opacity: 0.5;
 footer {
     background-color: #282828;
     height: 90px;
+    padding: 10px 10px 20px;
+    display: flex;
+    justify-content: space-around;
+    color: #ffffff;
 }
+
+.bar-sound-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bar-sound-right img{
+    width: 50px;
+    padding: 10px 10px 10px 0px;
+}
+
+.bar-sound-centre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bar-sound-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 /* MEDIA */
 @media (min-width: 576px) {
