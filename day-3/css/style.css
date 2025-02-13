@@ -189,11 +189,11 @@ body {
     text-align: center;
 }
 
-.container .container-big .centre .musica .album{
+.container .container-big .centre .musica .album .collect:hover{
     position: relative;
 }
 
-.container .container-big .centre .musica .album:hover .play{
+.container .container-big .centre .musica .album .collect .play{
     position: absolute;
     top: 0;
     left: 0;
