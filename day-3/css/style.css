@@ -359,4 +359,13 @@ footer {
         width: calc((100% - 50px) / 6);
         
     }
+
+    .barra{
+        width: 400px;
+        height: 4px;
+        background-color: #ffffff;
+        margin-top:10px;
+        opacity: 0.5; 
+        border-radius: 5px;  
+    }
 }
