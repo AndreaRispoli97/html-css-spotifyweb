@@ -124,6 +124,9 @@ body {
 .container .container-big .sopra {
     background-color: #10131a;
     height: 90px;
+    position:sticky;
+    top: 0;
+    left: 0;
 }
 
 .container .container-big .centre {
