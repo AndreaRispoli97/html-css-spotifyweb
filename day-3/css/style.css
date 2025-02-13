@@ -222,11 +222,11 @@ body {
     border-radius: 50%;
 }
 
-.container .container-big .centre .musica .album .pad10{
+.pad10{
     padding: 5px;
 }
 
-.container .container-big .centre .musica .album .op0-5{
+.op0-5{
 opacity: 0.5;
 }
 
@@ -237,7 +237,7 @@ footer {
     height: 90px;
     padding: 10px 10px 20px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     color: #ffffff;
 }
 
@@ -254,15 +254,69 @@ footer {
 
 .bar-sound-centre{
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
+
+.bar-play{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.big{
+    font-size: 30px;
+}
+
+.number{
+    display: flex;
+    gap: 10px;
+}
+
+.barra{
+    width: 100px;
+    height: 4px;
+    background-color: #ffffff;
+    margin-top:10px;
+    opacity: 0.5; 
+    border-radius: 5px;  
+}
+
+
+
 .bar-sound-left{
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+.bar-menu{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.barra-menu{
+    width: 100px;
+    height: 4px;
+    background-color: #ffffff;
+    margin-top:10px;
+    opacity: 0.5; 
+    margin-bottom: 10px; 
+    border-radius: 5px;
+}
+
+
+.cp-white{
+    font-size: 12px;
+    padding-right:20px;
+}
+
+.cp-grey{
+    opacity: 0.5;
+    font-size: 8px;
+}
 
 /* MEDIA */
 @media (min-width: 576px) {
